@@ -165,7 +165,7 @@ namespace MpcApiTester
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString(), "SendMessage Demo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.ToString(), "SendMessage Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
